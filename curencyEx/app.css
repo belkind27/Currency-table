@@ -1,0 +1,38 @@
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+    }
+    tr:nth-of-type(even) { 
+        background: white; 
+        }
+
+th { 
+	background:#25ADA7; 
+	color: black; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+    }
+    #canvasWrapper{
+        align-items: center;
+    }
+    canvas{
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
